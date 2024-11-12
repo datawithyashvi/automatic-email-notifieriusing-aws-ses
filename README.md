@@ -26,6 +26,7 @@ The objective of this experiment was to develop a serverless function using **AW
 ---
 ## Architecture
 The architecture for this serverless function follows a simple, event-driven design, utilizing AWS services to manage tasks with minimal infrastructure maintenance.
+
 ![a](https://github.com/user-attachments/assets/cf7908af-ce76-4850-ad6c-64325d28fcf6)
 
 ---
