@@ -1,7 +1,3 @@
-Here's the updated README without the "Benefits of Serverless Architecture" section:
-
----
-
 # Serverless Architecture Experiment Report
 
 This repository documents an experiment using **AWS Lambda** for an automated email notification function. The function sends an email when a task is completed, showcasing serverless architecture's scalability, cost-efficiency, and ease of maintenance. Below, you'll find a detailed explanation of each part of the setup, execution, and testing of this serverless function.
@@ -11,6 +7,7 @@ This repository documents an experiment using **AWS Lambda** for an automated em
 ## Table of Contents
 
 - [Objective](#objective)
+- [Architecture](#architecture)
 - [Function Explanation](#function-explanation)
 - [Setup and Configuration](#setup-and-configuration)
   - [Step 1: Environment Variables](#step-1-environment-variables)
@@ -25,6 +22,11 @@ This repository documents an experiment using **AWS Lambda** for an automated em
 ## Objective
 
 The objective of this experiment was to develop a serverless function using **AWS Lambda** to send an automated email notification upon task completion, while highlighting the advantages of serverless architecture in terms of scalability, cost management, and reduced maintenance.
+
+---
+## Architecture
+The architecture for this serverless function follows a simple, event-driven design, utilizing AWS services to manage tasks with minimal infrastructure maintenance.
+![a](https://github.com/user-attachments/assets/cf7908af-ce76-4850-ad6c-64325d28fcf6)
 
 ---
 
