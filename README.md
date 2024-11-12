@@ -2,8 +2,6 @@
 
 This repository documents an experiment using **AWS Lambda** for an automated email notification function. The function sends an email when a task is completed, showcasing serverless architecture's scalability, cost-efficiency, and ease of maintenance. Below, you'll find a detailed explanation of each part of the setup, execution, and testing of this serverless function.
 
----
-
 ## Table of Contents
 
 - [Objective](#objective)
@@ -55,8 +53,6 @@ This function, named [lambda_function.py](lambda_function.py), is designed to se
 6. **Error Handling**: 
    - Handle any errors that might occur during the email-sending process, including SMTP-specific errors.
 
----
-
 ## Setup and Configuration
 
 ### Step 1: Environment Variables
@@ -78,8 +74,6 @@ This function, named [lambda_function.py](lambda_function.py), is designed to se
 ### Step 5: Email Verification
 1. Check the inbox of the recipient email account to verify receipt of the notification.
 
-
----
 
 ## Conclusion
 
